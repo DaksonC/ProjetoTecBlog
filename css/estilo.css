@@ -1,0 +1,108 @@
+/*=====LIMPANDO FORMATAÇÃO PADRÃO====*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: e6e6e6;
+	font-size: 1em;
+	font-family:'Roboto', Helevete, sans-serif;
+}
+/*=======================TOPO==================================*/
+h1{
+	font-size: 2.5em;
+	color: #4e4e4e;
+}
+
+h2{
+	color: #f7b600;
+	padding: 20px 0px 0px 0px;
+}
+
+h3{
+	background: #CCC;
+	color: #8B8989;
+	padding: 5px;
+	font-size: 0.9em;
+}
+hr{
+	margin: 10px;
+}
+
+.branco{
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	margin: 5px;
+
+}
+
+a:link, a:visited {
+	color: #f7b600;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#topo a:link, #topo a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#topo a:hover {
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+p{
+	text-align: justify;
+	padding: 10px;
+}
+
+#topo{
+	background: #f7b600;
+	padding: 5px;
+	text-align: center;
+}
+#logo, #menu{
+	padding: 15px;
+}
+
+/*=======================CONTEÚDO================================*/
+#conteudo{
+	margin: 0 auto;
+	width: 920px;
+	padding: 10px;
+}
+.principal{
+	width: 620px;
+	float: left;
+	background: white;
+}	
+.lateral{
+	width: 240px;
+	float: right;
+	background: white;
+}
+.texto-lateral{
+	font-size: 0.8em;
+	padding: 10pxs;
+}
+.data{
+	font-size: 0.8em;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #f4f4f4;
+}
+#rodape{
+	background: #CCC;
+	text-align: center;
+	clear: both;
+	padding: 15px;
+}
